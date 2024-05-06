@@ -21,6 +21,7 @@ class FirstPage{
             rs.next();
             String name = rs.getString(2);
             System.out.println(name);
+            System.out.println("Testing the git branch here ");
             con.close();
         }catch (Exception e) {
             System.out.println("Connection Failed due to -->" + e.getMessage());
